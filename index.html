@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Telegram Bot Developer | Premium Bots</title>
+    <meta name="description" content="Professional Telegram Bot Developer specializing in Music Bots, File Management, and Economy Systems">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <a href="#" class="logo">
+                    <span class="logo-icon">🚀</span>
+                    <span class="logo-text">BotDev</span>
+                </a>
+                <ul class="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#bots">Bots</a></li>
+                    <li><a href="#docs">Docs</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#contact" class="btn-primary">Get Started</a></li>
+                </ul>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-badge">
+                    <span class="badge-dot"></span>
+                    Available for Projects
+                </div>
+                <h1 class="hero-title">
+                    Premium Telegram Bots<br>
+                    <span class="gradient-text">Built for Scale</span>
+                </h1>
+                <p class="hero-description">
+                    Specialized in creating high-performance Telegram bots for music streaming, 
+                    file management, and economy systems. Trusted by thousands of users worldwide.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#bots" class="btn-large btn-primary">Explore Bots</a>
+                    <a href="#docs" class="btn-large btn-secondary">View Documentation</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat">
+                        <div class="stat-number">50K+</div>
+                        <div class="stat-label">Active Users</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">3</div>
+                        <div class="stat-label">Premium Bots</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">99.9%</div>
+                        <div class="stat-label">Uptime</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="hero-gradient"></div>
+    </section>
+
+    <!-- Bots Section -->
+    <section id="bots" class="bots-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Featured Bots</h2>
+                <p class="section-description">Production-ready Telegram bots with advanced features</p>
+            </div>
+            
+            <div class="bots-grid">
+                <!-- Music Bot -->
+                <div class="bot-card featured">
+                    <div class="bot-icon music">🎵</div>
+                    <div class="bot-badge">Most Popular</div>
+                    <h3 class="bot-title">TeamDev Music Bot</h3>
+                    <p class="bot-description">
+                        Advanced voice chat music bot with high-quality streaming, playlist management, 
+                        and real-time controls. Supports YouTube, Spotify, and direct links.
+                    </p>
+                    <div class="bot-features">
+                        <span class="feature-tag">Voice Chat</span>
+                        <span class="feature-tag">HD Audio</span>
+                        <span class="feature-tag">Playlists</span>
+                        <span class="feature-tag">Queue System</span>
+                    </div>
+                    <div class="bot-footer">
+                        <a href="https://t.me/TeamDevMusicBot" target="_blank" class="bot-link">
+                            <span>Try Bot</span>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                        <a href="#docs-music" class="bot-docs">Documentation</a>
+                    </div>
+                </div>
+
+                <!-- File to Link Bot -->
+                <div class="bot-card">
+                    <div class="bot-icon files">📁</div>
+                    <h3 class="bot-title">FileToLink Bot</h3>
+                    <p class="bot-description">
+                        Instant file hosting with streaming and download links. Upload any file and 
+                        get permanent shareable links with lightning-fast CDN delivery.
+                    </p>
+                    <div class="bot-features">
+                        <span class="feature-tag">Instant Links</span>
+                        <span class="feature-tag">Streaming</span>
+                        <span class="feature-tag">No Limit</span>
+                        <span class="feature-tag">CDN Powered</span>
+                    </div>
+                    <div class="bot-footer">
+                        <a href="https://t.me/FileToLinkV3_Bot" target="_blank" class="bot-link">
+                            <span>Try Bot</span>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                        <a href="#docs-file" class="bot-docs">Documentation</a>
+                    </div>
+                </div>
+
+                <!-- Economy Bot -->
+                <div class="bot-card">
+                    <div class="bot-icon economy">💰</div>
+                    <h3 class="bot-title">CrimeZone Economy</h3>
+                    <p class="bot-description">
+                        Large-scale economy and RPG system with crimes, businesses, trading, and 
+                        leaderboards. Build your empire in a competitive environment.
+                    </p>
+                    <div class="bot-features">
+                        <span class="feature-tag">Economy System</span>
+                        <span class="feature-tag">Trading</span>
+                        <span class="feature-tag">Leaderboards</span>
+                        <span class="feature-tag">RPG Elements</span>
+                    </div>
+                    <div class="bot-footer">
+                        <a href="https://t.me/CrimeZone2_Bot" target="_blank" class="bot-link">
+                            <span>Try Bot</span>
+                            <svg width="16" height="16" viewBox="0 0 16 16" fill="none">
+                                <path d="M6 12L10 8L6 4" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </a>
+                        <a href="#docs-economy" class="bot-docs">Documentation</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Documentation Section -->
+    <section id="docs" class="docs-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Documentation</h2>
+                <p class="section-description">Complete guides to get started with our bots</p>
+            </div>
+
+            <div class="docs-grid">
+                <!-- Music Bot Docs -->
+                <div class="doc-card" id="docs-music">
+                    <div class="doc-header">
+                        <div class="doc-icon">🎵</div>
+                        <h3>Music Bot Guide</h3>
+                    </div>
+                    <div class="doc-content">
+                        <h4>Getting Started</h4>
+                        <ol>
+                            <li>Add <a href="https://t.me/TeamDevMusicBot" target="_blank">@TeamDevMusicBot</a> to your group</li>
+                            <li>Make it admin with "Manage Voice Chats" permission</li>
+                            <li>Start a voice chat in your group</li>
+                            <li>Use /play [song name or link] to play music</li>
+                        </ol>
+                        
+                        <h4>Commands</h4>
+                        <ul>
+                            <li><code>/play [query]</code> - Play a song</li>
+                            <li><code>/pause</code> - Pause current song</li>
+                            <li><code>/resume</code> - Resume playback</li>
+                            <li><code>/skip</code> - Skip to next song</li>
+                            <li><code>/queue</code> - View song queue</li>
+                            <li><code>/stop</code> - Stop and clear queue</li>
+                        </ul>
+
+                        <h4>Features</h4>
+                        <ul>
+                            <li>YouTube, Spotify, SoundCloud support</li>
+                            <li>Playlist import and management</li>
+                            <li>High-quality audio streaming</li>
+                            <li>Advanced queue system</li>
+                            <li>Volume control and equalizer</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- File Bot Docs -->
+                <div class="doc-card" id="docs-file">
+                    <div class="doc-header">
+                        <div class="doc-icon">📁</div>
+                        <h3>FileToLink Guide</h3>
+                    </div>
+                    <div class="doc-content">
+                        <h4>Getting Started</h4>
+                        <ol>
+                            <li>Start <a href="https://t.me/FileToLinkV3_Bot" target="_blank">@FileToLinkV3_Bot</a></li>
+                            <li>Send any file (video, audio, document, image)</li>
+                            <li>Receive instant download and streaming links</li>
+                            <li>Share links anywhere</li>
+                        </ol>
+                        
+                        <h4>Features</h4>
+                        <ul>
+                            <li>Instant link generation</li>
+                            <li>Direct streaming support</li>
+                            <li>No file size limits</li>
+                            <li>Permanent links</li>
+                            <li>Fast CDN delivery</li>
+                            <li>Multiple link formats</li>
+                        </ul>
+
+                        <h4>Supported Files</h4>
+                        <ul>
+                            <li>Videos (MP4, MKV, AVI, etc.)</li>
+                            <li>Audio (MP3, FLAC, WAV, etc.)</li>
+                            <li>Documents (PDF, DOCX, etc.)</li>
+                            <li>Images (JPG, PNG, GIF, etc.)</li>
+                            <li>Archives (ZIP, RAR, 7Z, etc.)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Economy Bot Docs -->
+                <div class="doc-card" id="docs-economy">
+                    <div class="doc-header">
+                        <div class="doc-icon">💰</div>
+                        <h3>Economy Bot Guide</h3>
+                    </div>
+                    <div class="doc-content">
+                        <h4>Getting Started</h4>
+                        <ol>
+                            <li>Start <a href="https://t.me/CrimeZone2_Bot" target="_blank">@CrimeZone2_Bot</a></li>
+                            <li>Use /start to create your account</li>
+                            <li>Complete tutorial to earn starter cash</li>
+                            <li>Begin your criminal empire!</li>
+                        </ol>
+                        
+                        <h4>Core Commands</h4>
+                        <ul>
+                            <li><code>/balance</code> - Check your balance</li>
+                            <li><code>/crime</code> - Commit crimes for cash</li>
+                            <li><code>/work</code> - Earn money legally</li>
+                            <li><code>/shop</code> - Buy items and upgrades</li>
+                            <li><code>/inventory</code> - View your items</li>
+                            <li><code>/leaderboard</code> - Top players</li>
+                        </ul>
+
+                        <h4>Game Features</h4>
+                        <ul>
+                            <li>Complex economy system</li>
+                            <li>Crime and heist missions</li>
+                            <li>Business ownership</li>
+                            <li>Player trading system</li>
+                            <li>Gang wars and alliances</li>
+                            <li>Achievement system</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">About Me</h2>
+                    <p class="about-description">
+                        I'm a passionate Telegram bot developer with expertise in creating scalable, 
+                        high-performance bots that serve thousands of users daily. My focus is on 
+                        building robust systems with clean code and exceptional user experience.
+                    </p>
+                    
+                    <div class="skills-grid">
+                        <div class="skill-item">
+                            <div class="skill-icon">⚡</div>
+                            <div class="skill-content">
+                                <h4>High Performance</h4>
+                                <p>Optimized for handling thousands of concurrent users</p>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">🛡️</div>
+                            <div class="skill-content">
+                                <h4>Secure & Reliable</h4>
+                                <p>Built with security best practices and 99.9% uptime</p>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">🎨</div>
+                            <div class="skill-content">
+                                <h4>User-Friendly</h4>
+                                <p>Intuitive interfaces with smooth user experience</p>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-icon">📈</div>
+                            <div class="skill-content">
+                                <h4>Scalable</h4>
+                                <p>Architecture designed to grow with your needs</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="tech-stack">
+                        <h4>Tech Stack</h4>
+                        <div class="tech-tags">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Pyrogram</span>
+                            <span class="tech-tag">Telethon</span>
+                            <span class="tech-tag">MongoDB</span>
+                            <span class="tech-tag">Redis</span>
+                            <span class="tech-tag">Docker</span>
+                            <span class="tech-tag">FFmpeg</span>
+                            <span class="tech-tag">PostgreSQL</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact/CTA Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="cta-box">
+                <h2 class="cta-title">Ready to Get Started?</h2>
+                <p class="cta-description">
+                    Try out our bots or get in touch for custom bot development
+                </p>
+                <div class="cta-buttons">
+                    <a href="https://t.me/TeamDevMusicBot" target="_blank" class="btn-large btn-primary">
+                        Try Music Bot
+                    </a>
+                    <a href="https://t.me/FileToLinkV3_Bot" target="_blank" class="btn-large btn-secondary">
+                        Try File Bot
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="logo">
+                        <span class="logo-icon">🚀</span>
+                        <span class="logo-text">BotDev</span>
+                    </div>
+                    <p>Premium Telegram Bots for Everyone</p>
+                </div>
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Bots</h4>
+                        <ul>
+                            <li><a href="https://t.me/TeamDevMusicBot" target="_blank">Music Bot</a></li>
+                            <li><a href="https://t.me/FileToLinkV3_Bot" target="_blank">File Bot</a></li>
+                            <li><a href="https://t.me/CrimeZone2_Bot" target="_blank">Economy Bot</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Resources</h4>
+                        <ul>
+                            <li><a href="#docs">Documentation</a></li>
+                            <li><a href="#about">About</a></li>
+                            <li><a href="#bots">Features</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 BotDev. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
