@@ -1,0 +1,10 @@
+{
+  "notifications": [
+    {
+      "id": "notif_001",
+      "title": "Test",
+      "message": "This is a test notification",
+      "scheduleTime": 1770323400000
+    }
+  ]
+}
